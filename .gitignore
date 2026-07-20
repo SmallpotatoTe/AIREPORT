@@ -1,0 +1,27 @@
+﻿# Local secrets
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+.next-dev/
+out/
+
+# Runtime data and logs
+data/
+*.log
+
+# Local tooling
+.codex/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

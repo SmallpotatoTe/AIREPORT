@@ -1,0 +1,30 @@
+{
+  "name": "ai-agent-daily",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "collect": "tsx scripts/run-collect.ts",
+    "test": "node --import tsx --test scripts/*.test.ts"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "nodemailer": "^9.0.3",
+    "openai": "^4.104.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/nodemailer": "^8.0.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.5.4",
+    "uipro-cli": "^2.2.3"
+  }
+}
